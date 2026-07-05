@@ -4,6 +4,10 @@ let tasks = [];
 function message() {
 
     let input = document.querySelector(".input-box input").value;
+    if(input == ""){
+    return;
+}
+    
 
 
     tasks.push(input);
