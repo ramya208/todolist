@@ -152,7 +152,7 @@ span{
     font-size:18px;
 }
 /* Mobile View */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     body{
         padding:15px;
